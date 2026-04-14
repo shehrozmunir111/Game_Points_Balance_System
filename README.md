@@ -6,9 +6,9 @@ A production ready Telegram bot system for tracking player points with a FastAPI
 
 ```
 ┌──────────────┐     HTTP/JSON      ┌──────────────┐     SQL/asyncpg     ┌──────────────┐
-│  Telegram Bot │ ◄───────────────► │ FastAPI API   │ ◄───────────────► │  PostgreSQL  │
-│  (aiogram)    │                   │ (Uvicorn)     │                   │              │
-└──────────────┘                    └──────────────┘                   └──────────────┘
+│  Telegram Bot│ ◄───────────────►  │ FastAPI API  │ ◄───────────────►   │  PostgreSQL  │
+│  (aiogram)   │                    │ (Uvicorn)    │                     │              │
+└──────────────┘                    └──────────────┘                     └──────────────┘
 ```
 
 ## Quick Start
